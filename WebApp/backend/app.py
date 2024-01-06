@@ -11,7 +11,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Load the pre-trained Logistic Regression model
 selected_classifier = load('WebApp/backend/sentiment_model.joblib')
-vectorizer = load('vectorizer.joblib')
+vectorizer = load('WebApp/backend/vectorizer.joblib')
 scaler = load('scaler.joblib')
 
 @app.route('/predict', methods=['POST'])
