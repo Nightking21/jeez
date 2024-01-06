@@ -1,0 +1,12 @@
+{
+  "name": "sentiment-analysis-app",
+  "version": "1.0.0",
+  "main": "backend/app.py",
+  "scripts": {
+    "start": "python backend/app.py"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  }
+}
