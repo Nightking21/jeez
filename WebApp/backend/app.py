@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load the pre-trained Logistic Regression model
-selected_classifier = load('sentiment_model.joblib')
+selected_classifier = load('WebApp/backend/sentiment_model.joblib')
 vectorizer = load('vectorizer.joblib')
 scaler = load('scaler.joblib')
 
